@@ -1,2 +1,19 @@
 ﻿body {
+    background-color: #1ccbc6;
+    font-family:Avantgarde, sans-serif;
+    margin: 25px auto;
+    padding: 25px;	
+}
+
+h1{
+    font-family: Palatino, serif;
+    font-weight:900;
+}
+
+ul{
+    text-align:center;
+    list-style-type: none;
+}
+li::first-letter{
+    font-size: 150%;
 }
