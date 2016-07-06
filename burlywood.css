@@ -1,2 +1,46 @@
 ﻿body {
+    background-color: burlywood;
+    margin: 25px auto;
+    padding: 25px;  
+}
+
+main{
+    border:dotted;
+    background-color: white;    
+    width:700px;
+    height:530px;
+    margin: auto;       
+}
+
+h1{
+    font-family: Arnoldboecklin, fantasy;
+    font-weight:900;
+    font-style: italic;
+    border-bottom:dotted;
+    text-align: center;
+    margin-top: 2px;
+}
+
+p{
+    font-family:'Gill Sans', sans-serif;
+    font-size:12px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+   
+}
+
+ul{
+    font-family:'Gill Sans', sans-serif;
+    font-style:italic;
+    text-align:center;
+    list-style-type: none;
+}
+li::first-letter{
+    font-size: 150%;
+}
+
+p.copyright{
+    text-align:center;
+    font-size:10px;
 }
